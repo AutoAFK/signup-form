@@ -10,8 +10,7 @@ body {
     display: flex;
 }
 
-.left,
-.right{
+.left{
     padding:40px;
 }
 
