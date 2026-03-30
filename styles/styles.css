@@ -84,7 +84,6 @@ a:visited, a:link {
 .signup-form {
     width: 100%;
     display: grid;
-    /* grid-template-columns: 250px 250px; */
     grid-template-columns: repeat(2,minmax(150px,250px));
     gap: 20px 50px;
 }
