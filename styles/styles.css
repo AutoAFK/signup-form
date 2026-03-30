@@ -79,20 +79,21 @@ a:visited, a:link {
     margin-top: 10px;
 }
 
-.form-wrapper {
-    background-color: var(--form-background-color);
-    padding-top: 30px;
-    padding-bottom: 30px;
-    padding-right: 40%;
+form {
     width: 100%;
+    
 }
 
-.form-wrapper>h1 {
-    margin-bottom: 20px;
-    letter-spacing: 2px;
+.form-background {
+    background-color: #fefefe;
 }
 
 .signup-form {
+    padding: 0;
+}
+
+.form-grid {
+    padding: 30px;
     width: 100%;
     display: grid;
     grid-template-columns: repeat(2,minmax(150px,250px));
@@ -142,4 +143,5 @@ a:visited, a:link {
     border: none;
     box-shadow: 0 2px 5px 1px #ff7373;
 }
+
 
