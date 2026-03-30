@@ -3,7 +3,7 @@
     --form-background-color: #fefefe;
     --form-input-border: 1px solid #3f3f3f44;
 
-    --right-side-background-color: #f7f7f7;
+    --right-side-background-color: #fff6f6;
 
 }
 
@@ -32,10 +32,6 @@ a:visited, a:link {
     color: #ff4343;
 }
 
-.left {
-    padding: 40px;
-}
-
 .image-wrapper {
     height: 100%;
     width: 500px;
@@ -43,6 +39,21 @@ a:visited, a:link {
     background-size: 450px auto;
     background-repeat: no-repeat;
     background-position-y: center;
+    background-position-x: center;
+}
+
+.image-wrapper > .image-text-container {
+    width: 100%;
+    padding: 10px;
+    background-color: var(--right-side-background-color);
+    text-align: center;
+    position: relative;
+    top: 20%;
+}
+
+.image-text-container > h1 {
+    position: relative;
+    left: 5px;
 }
 
 .right {
