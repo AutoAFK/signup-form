@@ -29,37 +29,42 @@
         </div>
 
         <div class="form-wrapper">
-            <h1>Let's save a life!</h1>
             <form class="signup-form">
+                <legend class="form-header">Let's save a life!</legend>
+
                 <div class="field">
                     <label for="first_name">FIRST NAME</label>
                     <input type="text" name="first_name" id="first_name">
                 </div>
+
                 <div class="field">
                     <label for="last_name">LAST NAME</label>
                     <input type="text" name="last_name" id="last_name">
                 </div>
+
                 <div class="field">
                     <label for="email">EMAIL</label>
                     <input type="email" name="email" id="email">
                 </div>
+
                 <div class="field">
                     <label for="phone_number">PHONE NUMBER</label>
                     <input type="text" name="phone_number" id="phone_number">
                 </div>
+
                 <div class="field">
-                    <label for="password">PASSWORD</label>
-                    <input type="password" name="password" id="password">
-                </div>
-                <div class="field">
-                    <label for="confirm_password">CONFIRM PASSWORD</label>
-                    <input type="password" name="confirm_password" id="confirm_password">
+                    <label for="password">* PASSWORD</label>
+                    <input type="password" name="password" id="password" required min="9" max="16">
                 </div>
 
+                <div class="field">
+                    <label for="confirm_password">* CONFIRM PASSWORD</label>
+                    <input type="password" name="confirm_password" id="confirm_password" required min="9" max="16">
+                </div>
+
+                <button class="submit-button" type="submit">Create Account</button>
             </form>
         </div>
-
-        <button class="submit-button" type="submit">Create account</button>
 
         <p>Already have an account? <a href="#">Log in</a></p>
     </div>
